@@ -1,0 +1,50 @@
+.container-principal {
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #282c34;
+}
+
+.contador{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-botao {
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+
+  background: none;
+  margin: 0.1px;
+}
+
+.numero {
+  color: #F8F8FF;
+  font-size: 6em;
+} 
+
+.botao {
+  width: 6rem;
+  height: 3rem;
+
+  color: #282c34;
+  background:#F8F8FF;
+  font-size: 1.5rem;
+
+  margin: 1px;
+  cursor: pointer;
+  border: none;
+
+  transition: .4s;
+}
+
+.botao:hover {
+  background: #c7c7c7;
+}
