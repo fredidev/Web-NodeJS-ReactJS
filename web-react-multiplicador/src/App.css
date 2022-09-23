@@ -1,0 +1,32 @@
+body {
+
+    background-color: #282c34;
+    color: #ffffff;
+
+}
+
+h1,p {
+
+    color: yellowgreen;
+
+}
+
+.container-principal {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+input {
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+
+}
